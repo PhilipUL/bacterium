@@ -1,0 +1,18 @@
+{
+	"type" : "damaging",
+	"subtype" : "trap",
+	"texture" : "Config/Content/Images/Entities/trap1.png",
+	"damage" : 5,
+	"scale" : { "x" : 0.5, "y" : 0.5 },
+	
+	"animations" : [
+		{
+			"frames" : [
+				{
+					"duration" : 0,
+					"rect" : { "left" : 0, "top" : 0, "width" : 68, "height" : 68 }
+				}
+			]
+		}
+	]
+}

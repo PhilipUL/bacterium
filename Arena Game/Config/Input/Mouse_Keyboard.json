@@ -1,0 +1,12 @@
+{
+	"primaryAttack" : 0,
+	"trapAttack" : 1,
+	
+	"specialAttack" : 57,
+	"meleeAttack" : 4,
+	
+	"moveUp" : 22,
+	"moveDown" : 18,
+	"moveLeft" : 0,
+	"moveRight" : 3
+}

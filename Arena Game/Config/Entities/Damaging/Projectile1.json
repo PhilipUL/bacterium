@@ -1,0 +1,22 @@
+{
+	"type" : "damaging",
+	"subtype" : "projectile",
+	"texture" : "Config/Content/Images/Entities/attack1.png",
+	"speed" : { "x" : 7, "y" : 7 },
+	"lifetime" : 3000,
+	"damage" : 1,
+	
+	"animations" : [
+		{
+			"name" : "spin",
+			"rows" : [
+				{
+					"origin" : { "x" : 0, "y" : 0 },
+					"frameCount" : 3,
+					"frameSize" : { "width" : 40, "height" : 40 },
+					"frameDuration" : 25
+				}
+			]
+		}
+	]
+}

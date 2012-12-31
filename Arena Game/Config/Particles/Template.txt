@@ -1,0 +1,7 @@
+{
+	"numParticles" : 20,
+	"particleTexture" : "Config/Content/Images/Particles/particle.png",
+	"speed" : { "x" : 2, "y" : 2 },
+	"lifeTime" : { "min" : 200, "max" : 400},
+	"explode" : true
+}

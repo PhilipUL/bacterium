@@ -1,0 +1,16 @@
+#ifndef ENTITYTYPES_H_
+#define ENTITYTYPES_H_
+
+static const enum TYPE
+{
+	PLAYER,
+	MELEE,
+	ENEMY,
+	PROJECTILE,
+	WALL,
+	TRAP,
+	DAMAGING_ENTITY,
+	NUM_TYPES
+};
+
+#endif

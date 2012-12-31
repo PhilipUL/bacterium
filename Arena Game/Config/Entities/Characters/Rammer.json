@@ -1,0 +1,26 @@
+{
+	"type" : "enemy",
+	"texture" : "Config/Content/Images/Entities/rammer.png",
+	"hitSound" : "Config/Content/Audio/hit.wav",
+	"hitEmitter" : "Config/Particles/Emitter1.json",
+	"speed" : { "x" : 2, "y" : 2 },
+	"scale" : { "x" : 0.5, "y" : 0.5 },
+	"behaviour" : "rammer",
+	"hitDamage" : 0.5,
+	"health" : 7,
+	"deathScore" : 200,
+	
+	"animations" : [
+		{
+			"name" : "enemyUp",
+			"rows" : [
+				{
+					"origin" : { "x" : 0, "y" : 0 },
+					"frameCount" : 4,
+					"frameSize" : { "width" : 70, "height" : 120 },
+					"frameDuration" : 150
+				}
+			]
+		}
+    ]
+}

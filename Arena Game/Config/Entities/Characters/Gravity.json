@@ -1,0 +1,25 @@
+{
+	"type" : "enemy",
+	"texture" : "Config/Content/Images/Entities/blackHoleEnemy.png",
+	"hitSound" : "Config/Content/Audio/hit.wav",
+	"hitEmitter" : "Config/Particles/Emitter1.json",
+	"speed" : { "x" : 0.01, "y" : 0.01 },
+	"behaviour" : "gravity",
+	"hitDamage" : 0.5,
+	"health" : 50,
+	"deathScore" : 200,
+	
+	"animations" : [
+		{
+			"name" : "enemyUp",
+			"rows" : [
+				{
+					"origin" : { "x" : 0, "y" : 0 },
+					"frameCount" : 12,
+					"frameSize" : { "width" : 100, "height" : 100 },
+					"frameDuration" : 100
+				}
+			]
+		}
+    ]
+}

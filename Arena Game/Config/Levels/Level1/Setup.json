@@ -1,0 +1,17 @@
+{
+	"background" : "Config/Content/Images/Backgrounds/arenaBackground.png",
+	
+	"hud" :
+	{
+		"healthBar" : "Config/Content/Images/GUI/healthBar.png",
+		"healthBarBackground" : "Config/Content/Images/GUI/healthBarBackground.png"
+	},
+	
+	"_comment" : "mode can either be 0 for normal or 1 for survival",
+	"mode" : 0,
+	"enemyWaves" : [
+		{ "waveID" : "simpleAllDirections", "waveTimeDelay" : 2000 },
+		{ "waveID" : "simpleTop", "waveTimeDelay" : 2000 },
+		{ "waveID" : "advancedTop", "waveTimeDelay" : 3000 }
+	]
+}

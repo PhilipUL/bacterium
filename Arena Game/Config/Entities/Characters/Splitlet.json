@@ -1,0 +1,25 @@
+{
+	"type" : "enemy",
+	"texture" : "Config/Content/Images/Entities/splitEnemy.png",
+	"hitSound" : "Config/Content/Audio/hit.wav",
+	"hitEmitter" : "Config/Particles/Emitter1.json",
+	"speed" : { "x" : 4, "y" : 4 },
+	"behaviour" : "splitlet",
+	"hitDamage" : 0.5,
+	"health" : 1,
+	"deathScore" : 5,
+	
+	"animations" : [
+		{
+			"name" : "enemyUp",
+			"rows" : [
+				{
+					"origin" : { "x" : 0, "y" : 0 },
+					"frameCount" : 1,
+					"frameSize" : { "width" : 20, "height" : 45 },
+					"frameDuration" : 150
+				}
+			]
+		}
+    ]
+}

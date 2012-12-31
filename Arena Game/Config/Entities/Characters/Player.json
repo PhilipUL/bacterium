@@ -1,0 +1,50 @@
+{
+	"type" : "player",
+	"texture" : "Config/Content/Images/Entities/avatar.png",
+	"hitSound" : "Config/Content/Audio/playerdeath.wav",
+	"hitEmitter" : "Config/Particles/PlayerDeathEmitter.json",
+	"speed" : { "x" : 3, "y" : 3 },
+	"scale" : { "x" : 0.5, "y" : 0.5 },
+	"health" : 100,
+	
+	"animations" : [
+		{
+			"name" : "playerUp",
+			"rows" : [
+				{
+					"origin" : { "x" : 0, "y" : 0 },
+					"frameCount" : 12,
+					"frameSize" : { "width" : 80, "height" : 80 },
+					"frameDuration" : 50
+				}
+			]
+		}
+   ],
+   
+   "abilities" : [
+		{
+			"entityFilepath" : "Config/Entities/Damaging/Projectile3.json",
+			"soundFilepath" : "Config/Content/Audio/shoot.wav",
+			"spawnOffset" : { "x" : 0, "y" : 0 },
+			"rateOfFire" : 75
+		},
+		{
+			"entityFilepath" : "Config/Entities/Damaging/Projectile2.json",
+			"soundFilepath" : "Config/Content/Audio/special.wav",
+			"spawnOffset" : { "x" : 0, "y" : 0 },
+			"rateOfFire" : 10000,
+			"numEntities" : 90,
+			"angle" : 4
+		},
+		{
+			"entityFilepath" : "Config/Entities/Damaging/Melee.json",
+			"soundFilepath" : "Config/Content/Audio/melee.wav",
+			"rateOfFire" : 2000
+		},
+		{
+			"entityFilepath" : "Config/Entities/Damaging/Trap.json",
+			"soundFilepath" : "Config/Content/Audio/laytrap.wav",
+			"rateOfFire" : 3000
+		}
+   ]
+}

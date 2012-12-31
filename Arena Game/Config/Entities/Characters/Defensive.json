@@ -1,0 +1,24 @@
+{
+	"type" : "enemy",
+	"texture" : "Config/Content/Images/Entities/shieldEnemy.png",
+	"hitSound" : "Config/Content/Audio/hit.wav",
+	"hitEmitter" : "Config/Particles/Emitter1.json",
+	"speed" : { "x" : 0.00001, "y" : 0.0001 },
+	"behaviour" : "defensive",
+	"hitDamage" : 0.5,
+	"deathScore" : 200,
+	
+	"animations" : [
+		{
+			"name" : "enemyUp",
+			"rows" : [
+				{
+					"origin" : { "x" : 0, "y" : 0 },
+					"frameCount" : 8,
+					"frameSize" : { "width" : 64, "height" : 64 },
+					"frameDuration" : 120
+				}
+			]
+		}
+    ]
+}

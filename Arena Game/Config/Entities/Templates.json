@@ -1,0 +1,37 @@
+{
+	"_comment" : "This file shows all accepted values",
+	"_comment" : "You can pick and chose what values you want for each entity",
+	"_comment" : "Values not given a value will be given a default value",
+	"_comment" : "Default values for numbers are usually -1, but not in all cases",
+	"_comment" : "Default values for strings is usually empty",
+	"_comment" : "for time values, our unit is milliseconds",
+	"_comment" : "for things like position and speed, we use pixels as our unit",
+	
+	"_comment" : "The most important value. This defines the type of the enemy
+	"type" : "player",
+	
+	"_comment" : "Pretty much all entities have textures",
+	"texture" : "filepath",
+	
+	"_comment" : "speed has an X and a Y value",
+	"speed" : { "x" : 1.5, "y" : 1.5 },
+	
+	"_comment" : "If the life time is forever, do not include this for a default value to be used",
+	"lifetime" : 1000,
+	
+	"_comment" : "scale is relative to texture (or frame) size, default value is 1",
+	"scale" : 1.5,
+	
+	"_comment" : "offset is normally used when spawning entities such as projectiles during the middle of a game",
+	"_comment" : "This offset is relative to the spawn position",
+	"offset" : { "x" : -3, "y" : -5 },
+	
+	"_comment" : "Used for animated entities, that leads to another file",
+	"animation" : "Config/Entities/EntityName/Animation.json",
+	
+	"_comment" : "Used for entities with abilities such as characters, this leads to another file",
+	"abilities" : "Config/Entities/EntityName/Abilities.json",
+	
+	"_comment" : "Used to define behaviour for AI",
+	"behaviour" : "AdvancedAI"
+}

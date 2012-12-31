@@ -1,0 +1,26 @@
+{
+	"type" : "enemy",
+	"texture" : "Config/Content/Images/Entities/dodger2.png",
+	"hitSound" : "Config/Content/Audio/hit.wav",
+	"hitEmitter" : "Config/Particles/Emitter1.json",
+	"speed" : { "x" : 2, "y" : 2 },
+	"scale" : { "x" : 0.5, "y" : 0.5},
+	"behaviour" : "advanced",
+	"hitDamage" : 0.5,
+	"health" : 1,
+	"deathScore" : 50,
+	
+	"animations" : [
+		{
+			"name" : "enemyUp",
+			"rows" : [
+				{
+					"origin" : { "x" : 0, "y" : 0 },
+					"frameCount" : 8,
+					"frameSize" : { "width" : 70, "height" : 70 },
+					"frameDuration" : 50
+				}
+			]
+		}
+    ]
+}

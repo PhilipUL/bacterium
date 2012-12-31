@@ -1,0 +1,66 @@
+{
+	"_comment" : "Maps a name to the enemy config file path",
+	"_comment" : "We then use this name when defining waves",
+	"nameMap" : [
+		{ "name" : "advanced", "filepath" : "Config/Entities/Characters/advanced.json" },
+		{ "name" : "defensive", "filepath" : "Config/Entities/Characters/Defensive.json" },
+		{ "name" : "gravity", "filepath" : "Config/Entities/Characters/Gravity.json" },
+		{ "name" : "health", "filepath" : "Config/Entities/Characters/Health.json" },
+		{ "name" : "rammer", "filepath" : "Config/Entities/Characters/Rammer.json" },
+		{ "name" : "simple", "filepath" : "Config/Entities/Characters/Simple.json" },
+		{ "name" : "splitter", "filepath" : "Config/Entities/Characters/Splitter.json" },
+		{ "name" : "splitlet", "filepath" : "Config/Entities/Characters/Spitlet.json" }
+	],
+	
+	"_comment" : "centre is imbetween left and right (x axis)",
+	"_comment" : "middle is imbetween top and bottom (y axis)",
+	"spawnPoints" : [
+		{ "name" : "topLeft", "x" : 100, "y" : 100},
+		{ "name" : "topCentre", "x" : 400, "y" : 70},
+		{ "name" : "topRight", "x" : 700, "y" : 100},
+		{ "name" : "middleRight", "x" : 730, "y" : 300},
+		{ "name" : "bottomRight", "x" : 700, "y" : 500},
+		{ "name" : "bottomCentre", "x" : 400, "y" : 530},
+		{ "name" : "bottomLeft", "x" : 100, "y" : 500},
+		{ "name" : "middleLeft", "x" : 70, "y" : 300}
+	],
+	
+	"waves" : [
+		{
+			"id" : "simpleAllDirections",
+			"tier" : 2,
+			"spawnTimeDelay" : 1000,
+			"enemies" : [
+				{ "name" : "simple", "spawnPoint" : "topLeft" },
+				{ "name" : "simple", "spawnPoint" : "topCentre" },
+				{ "name" : "simple", "spawnPoint" : "topRight" },
+				{ "name" : "simple", "spawnPoint" : "middleRight" },
+				{ "name" : "simple", "spawnPoint" : "bottomRight" },
+				{ "name" : "simple", "spawnPoint" : "bottomCentre" },
+				{ "name" : "simple", "spawnPoint" : "bottomLeft" },
+				{ "name" : "simple", "spawnPoint" : "middleLeft" }
+				
+			]
+		},
+		{
+			"id" : "advancedTop",
+			"tier" : 1,
+			"spawnTimeDelay" : 1000,
+			"enemies" : [
+				{ "name" : "advanced", "spawnPoint" : "topLeft" },
+				{ "name" : "advanced", "spawnPoint" : "topCentre" },
+				{ "name" : "advanced", "spawnPoint" : "topRight" }
+			]
+		},
+		{
+			"id" : "simpleTop",
+			"tier" : 1,
+			"spawnTimeDelay" : 1000,
+			"enemies" : [
+				{ "name" : "simple", "spawnPoint" : "topLeft" },
+				{ "name" : "simple", "spawnPoint" : "topCentre" },
+				{ "name" : "simple", "spawnPoint" : "topRight" }
+			]
+		}
+	]
+}

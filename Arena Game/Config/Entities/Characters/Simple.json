@@ -1,0 +1,25 @@
+{
+	"type" : "enemy",
+	"texture" : "Config/Content/Images/Entities/greenEnemy.png",
+	"hitSound" : "Config/Content/Audio/hit.wav",
+	"hitEmitter" : "Config/Particles/Emitter1.json",
+	"speed" : { "x" : 2, "y" : 2 },
+	"behaviour" : "simple",
+	"hitDamage" : 0.5,
+	"health" : 1,
+	"deathScore" : 10,
+	
+	"animations" : [
+		{
+			"name" : "enemyUp",
+			"rows" : [
+				{
+					"origin" : { "x" : 0, "y" : 0 },
+					"frameCount" : 9,
+					"frameSize" : { "width" : 60, "height" : 45 },
+					"frameDuration" : 100
+				}
+			]
+		}
+    ]
+}

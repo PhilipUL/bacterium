@@ -1,0 +1,5 @@
+{
+	"type" : "wall",
+	"texture" : "Config/Content/Images/Entities/Wall.jpg",
+	"scale" : { "x" : 0.5, "y" : 20 }
+}

@@ -1,0 +1,20 @@
+{
+	"type" : "enemy",
+	"texture" : "Config/Content/Images/Entities/healthSprite.png",
+	"speed" : { "x" : 2, "y" : 2 },
+	"behaviour" : "fleeing",
+	
+	"animations" : [
+		{
+			"name" : "enemyUp",
+			"rows" : [
+				{
+					"origin" : { "x" : 0, "y" : 0 },
+					"frameCount" : 12,
+					"frameSize" : { "width" : 45, "height" : 45 },
+					"frameDuration" : 70
+				}
+			]
+		}
+    ]
+}

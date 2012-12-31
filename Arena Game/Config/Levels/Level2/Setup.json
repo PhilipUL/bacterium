@@ -1,0 +1,20 @@
+{
+	"background" : "Config/Content/Images/Backgrounds/arenaBackground.png",
+	
+	"hud" :
+	{
+		"healthBar" : "Config/Content/Images/GUI/healthBar.png",
+		"healthBarBackground" : "Config/Content/Images/GUI/healthBarBackground.png"
+	},
+	
+	"_comment" : "mode can either be 0 for normal or 1 for survival",
+	"mode" : 1,
+	"survival" :
+	{
+		"minTier" : 0,
+		"maxTier" : 2,
+		"minWaveTimeDelay" : 2000,
+		"maxWaveTimeDelay" : 4000,
+		"difficultyRate" : 100000
+	}
+}

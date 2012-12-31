@@ -1,0 +1,25 @@
+{
+	"type" : "enemy",
+	"texture" : "Config/Content/Images/Entities/blob.png",
+	"hitSound" : "Config/Content/Audio/hit.wav",
+	"hitEmitter" : "Config/Particles/Emitter1.json",
+	"speed" : { "x" : 2, "y" : 2 },
+	"behaviour" : "splitter",
+	"hitDamage" : 0.5,
+	"health" : 1,
+	"deathScore" : 10,
+	
+	"animations" : [
+		{
+			"name" : "enemyUp",
+			"rows" : [
+				{
+					"origin" : { "x" : 0, "y" : 0 },
+					"frameCount" : 8,
+					"frameSize" : { "width" : 50, "height" : 50 },
+					"frameDuration" : 150
+				}
+			]
+		}
+    ]
+}

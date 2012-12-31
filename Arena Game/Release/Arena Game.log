@@ -1,0 +1,32 @@
+﻿Build started 13/08/2012 15:36:30.
+     1>Project "C:\repos\arena-game-v5-ryanfork\Arena Game\Arena Game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Arena Game.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\SFML-2.0-rc\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GameResourceManager.cpp
+         GameResourceManager.cpp
+     1>c:\repos\arena-game-v5-ryanfork\arena game\GameResourceManager.h(34): error C3857: 'GameResourceManager<T>::resourceMap': multiple template parameter lists are not allowed
+                 c:\repos\arena-game-v5-ryanfork\arena game\GameResourceManager.h(36) : see reference to class template instantiation 'GameResourceManager<T>' being compiled
+     1>GameResourceManager.cpp(6): error C2244: 'GameResourceManager<T>::GameResourceManager' : unable to match function definition to an existing declaration
+                 c:\repos\arena-game-v5-ryanfork\arena game\GameResourceManager.h(11) : see declaration of 'GameResourceManager<T>::GameResourceManager'
+                 definition
+                 'GameResourceManager::GameResourceManager(void)'
+                 existing declarations
+                 'GameResourceManager<T>::GameResourceManager(void)'
+     1>GameResourceManager.cpp(12): error C2244: 'GameResourceManager<T>::~GameResourceManager' : unable to match function definition to an existing declaration
+                 c:\repos\arena-game-v5-ryanfork\arena game\GameResourceManager.h(12) : see declaration of 'GameResourceManager<T>::~GameResourceManager'
+                 definition
+                 'GameResourceManager::~GameResourceManager(void)'
+                 existing declarations
+                 'GameResourceManager<T>::~GameResourceManager(void)'
+     1>GameResourceManager.cpp(18): error C2244: 'GameResourceManager<T>::unloadResource' : unable to match function definition to an existing declaration
+                 c:\repos\arena-game-v5-ryanfork\arena game\GameResourceManager.h(28) : see declaration of 'GameResourceManager<T>::unloadResource'
+                 definition
+                 'void GameResourceManager::unloadResource(std::string)'
+                 existing declarations
+                 'void GameResourceManager<T>::unloadResource(const std::string)'
+     1>Done Building Project "C:\repos\arena-game-v5-ryanfork\Arena Game\Arena Game.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.79
